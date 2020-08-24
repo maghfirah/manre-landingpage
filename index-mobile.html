@@ -1,0 +1,213 @@
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Sticky Navbar</title>
+    <link rel="stylesheet" href="manre-style.css">
+    <link type="text/css" rel="stylesheet" href="assets/fontello/css/medsos.css" media="screen,projection"/>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="manre-script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <nav class="hide">
+        <div class="logo">
+            <img src="assets/logo-manre.png" alt="logo manre" width="200px">
+        </div>
+
+        <div class="menu-icon">
+            <span onclick='document.getElementById("mySidenav").style.width = "250px"'>
+                <i class="fa fa-bars fa-2x f-grey" ></i>
+            </span>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick='document.getElementById("mySidenav").style.width = "0"'>×</a>
+            <a href="#beranda" onclick='document.getElementById("mySidenav").style.width = "0"'>Beranda</a>
+            <a href="#keunggulan" onclick='document.getElementById("mySidenav").style.width = "0"'>Keunggulan</a>
+            <a href="#fitur" onclick='document.getElementById("mySidenav").style.width = "0"'>Fitur</a>
+            <a href="#kontak" onclick='document.getElementById("mySidenav").style.width = "0"'>Kontak</a>
+        </div>
+    </nav>
+    <header id="beranda">
+        <div class="centered header-overlay" style="padding-top: 100px">
+            <img src="assets/logo-manre.png" alt="logo manre" width="200px">
+        </div>
+
+        <div class="centered header-overlay">
+
+            <div class="row mt-20">
+                <div class="btn-group" role="group" aria-label="Page menu">
+                    <button onclick="window.location.href='#beranda','_parent'" type="button" class="btn btn-light btn-block no-margin">Beranda</button>
+                    <button onclick="window.location.href='#keunggulan','_parent'" type="button" class="btn btn-light btn-block no-margin">Keunggulan</button>
+                    <button onclick="window.location.href='#fitur','_parent'" type="button" class="btn btn-light btn-block no-margin">Fitur</button>
+                    <button onclick="window.location.href='#kontak','_parent'" type="button" class="btn btn-light btn-block no-margin">Kontak</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="no-margin">
+            <div class="container mt-100 mb-100">
+                <div class="row no-margin">
+                    <div class="col-sm">
+                        <img src="assets/phone-banner.png" alt="manre iphone banner" width="300px">
+
+                    </div>
+                    <div class="col-sm">
+                        <h5 class="f-grey">#berawaldaridapur</h5>
+                        <h1 style="font-size: 3em;font-weight: 900">DO YOUR HOBBY <br>
+                            MAKE YOUR MONEY</h1>
+                        <h3 style="line-height: 1.5; font-weight: lighter">Manre merupakan platform yang mewujudkan ide bisnis anda berawal dari dapur.
+                            Buat warung online mu sendiri!</h3>
+                        <div class="row">
+                            <div class="col-sm">
+                                <a href=""><img src="assets/google-play.png" alt="download manre google play" width=""></a>
+                            </div>
+                            <div class="col-sm">
+                                <a href=""><img src="assets/appstore.png" alt="download manre appstore" width=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-100 mb-100" style="background-color: #F0F0F0" id="keunggulan">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col mt-100 mb-100">
+                        <div class="row">
+                            <div class="col-sm text-right mt-20">
+                                <h5 class="f-grey" style="font-weight: 300">#keunggulan</h5>
+                                <h4 style="font-weight: 900">COOK & SELL</h4>
+                                <h5 style="font-weight: 300">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </h5>
+                            </div>
+                            <div class="col-sm text-left">
+                                <a href=""><img src="assets/keunggulan1.png" alt="manre cook and sell" width="300px"></a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm text-right">
+                                <a href=""><img src="assets/keunggulan2.png" alt="manre food delivery" width="300px"></a>
+                            </div>
+                            <div class="col-sm text-left mt-20">
+                                <h5 class="f-grey" style="font-weight: 300">#keunggulan</h5>
+                                <h4 style="font-weight: 900">FOOD DELIVERY</h4>
+                                <h5 style="font-weight: 300">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </h5>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="fitur">
+            <div class="row">
+                <div class="col mt-100 mb-100">
+                    <div class="row centered">
+                        <h2>FITUR-FITUR MANRE YANG HARUS KAMU KETAHUI</h2>
+
+                    </div>
+                    <div class="row">
+
+                        <div class="col-sm mt-100 mb-100">
+                            <div class="card box-shadow" style="width: 18rem; border-radius: 40px">
+                                <img class="card-img-top" src="assets/fitur1.png" alt="fitur manre">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm mt-100 mb-100">
+                            <div class="card box-shadow" style="width: 18rem; border-radius: 40px">
+                                <img class="card-img-top" src="assets/fitur2.png" alt="fitur manre">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm mt-100 mb-100">
+                            <div class="card box-shadow" style="width: 18rem; border-radius: 40px">
+                                <img class="card-img-top" src="assets/fitur3.png" alt="fitur manre">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="no-margin" style="background-color: #F0F0F0" id="kontak">
+
+            <div class="row" style="text-align: center">
+
+                <div class="col mt-100 mb-100">
+                    <h1 style="font-weight: 900">DOWNLOAD MANRE APP, GRATIS !</h1>
+                    <h5 style="font-weight: 300">Segera download aplikasi manre di google play dan appstore. <br>Dan dapatkan beragam voucher diskon yang tersedia di aplikasi.</h5>
+                    <a href=""><img src="assets/google-play.png" alt="download manre app" width=""></a>
+                    <a href=""><img src="assets/appstore.png" alt="download manre app" width=""></a>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="no-margin">
+
+            <div class="row mt-100 mb-100" style="text-align: center">
+
+                <div class="col-sm text-center">
+                    <a href=""><img src="assets/logo-manre.png" alt="manre-logo" width="150px"></a>
+                    <p class="mt-20">
+                        Jl. Pelita Raya No.41, Balla Parang, <br>
+                        Kec. Rappocini, Kota Makassar, <br>
+                        Sulawesi Selatan 90222, Indonesia
+                    </p>
+                </div>
+                <div class="col-sm text-center">
+                    <h3>Support</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="large uf-envelope-open-o"></i> hello@manre.com</span></li>
+                        <li class="list-group-item"><i class="large uf-facebook-squared"></i> manre</span></li>
+                        <li class="list-group-item"><i class="large uf-instagram"></i> manre</span></li>
+                    </ul>
+<!--                    <p>-->
+<!--                        <span><a href="https://api.whatsapp.com/send?phone=6281&text=Halo%20manre%20"-->
+<!--                                 target="_blank"></a>-->
+<!--                        <i class="large uf-whatsapp"></i> Whatsapp</span>-->
+
+<!--                    </p>-->
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <hr>
+            <div class="row mt-20 centered">
+                <p>Made with ❤️ from Indonesia. Manre ©2020</p>
+            </div>
+        </div>
+    </header>
+</div>
+<!-- The scroll to top feature -->
+
+<div class="scroll-top-wrapper ">
+  <span class="scroll-top-inner">
+    <i class="fa fa-2x fa-arrow-circle-up"></i>
+  </span>
+</div>
+</body>
+</html>

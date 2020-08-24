@@ -1,0 +1,7 @@
+
+.uf-instagram { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16d;&nbsp;'); }
+.uf-whatsapp { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf232;&nbsp;'); }
+.uf-commenting-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf27b;&nbsp;'); }
+.uf-shopping-basket { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf291;&nbsp;'); }
+.uf-envelope-open-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2b7;&nbsp;'); }
+.uf-facebook-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf308;&nbsp;'); }

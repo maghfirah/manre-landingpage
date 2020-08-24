@@ -1,0 +1,18 @@
+[class^="uf-"], [class*=" uf-"] {
+  font-family: 'medsos';
+  font-style: normal;
+  font-weight: normal;
+ 
+  /* fix buttons height */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+ 
+.uf-instagram { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16d;&nbsp;'); }
+.uf-whatsapp { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf232;&nbsp;'); }
+.uf-commenting-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf27b;&nbsp;'); }
+.uf-shopping-basket { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf291;&nbsp;'); }
+.uf-envelope-open-o { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2b7;&nbsp;'); }
+.uf-facebook-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf308;&nbsp;'); }
