@@ -31,14 +31,14 @@ $(document).ready(function() {
 
 $(window).on("scroll", function() {
     if($(window).scrollTop()) {
-        $('nav').addClass('black');
+        $('nav').addClass('white');
         $('nav').removeClass('hide');
         $('.header-overlay').addClass('hide');
 
     }
 
     else {
-        $('nav').removeClass('black');
+        $('nav').removeClass('white');
         $('nav').addClass('hide');
         $('.header-overlay').removeClass('hide');
 
