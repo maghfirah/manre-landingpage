@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f21e84a4-1c09-4e10-87ba-7324c2f549b7" name="manre-kecil" url="http://103.146.203.226">
+        <fileTransfer host="103.146.203.226" port="22" rootFolder="/var/www/html/manre-api-laravel/public/landing" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

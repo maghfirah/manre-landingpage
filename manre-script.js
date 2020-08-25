@@ -25,14 +25,11 @@ $(document).ready(function() {
         offsetTop = offset.top;
         $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
     }
-//    sidenav
-    function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-    }
 
-    function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-    }
+    // scrollspy
+    $('[data-spy="scroll"]').on('activate.bs.scrollspy', function () {
+        console.log('hi');
+    })
 });
 
 // Scrolling Effect
