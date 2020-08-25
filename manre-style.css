@@ -277,9 +277,16 @@ nav ul li a {
     .sidenav a {font-size: 18px}
 }
 
+@media screen and (max-width: 375px) {
+    a.btn-menu{
+        padding-top: 23px!important;
+        font-size: 10px!important;
+    }
+}
+
 .btn-menu{
+    font-weight: 900!important;
     display: inline-block;
-    font-weight: 400;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -290,8 +297,16 @@ nav ul li a {
     border: 1px solid transparent;
     padding: .375rem .75rem;
     padding-top: 20px!important;
-    font-size: 1rem;
+    font-size: 15px;
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.manre-navbar a{
+    font-weight: 900 !important;
+    text-decoration: none!important;
+}
+.manre-navbar a:hover{
+    color: #111111;
 }
